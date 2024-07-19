@@ -15,7 +15,7 @@ import java.util.List;
 @Entity
 @Table(name="users")
 @Builder
-public class User {
+public class UserEntity {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
@@ -31,5 +31,5 @@ public class User {
     private String email;
 
     @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
-    private List<Registry> registries;
+    private List<RegistryEntity> registries;
 }

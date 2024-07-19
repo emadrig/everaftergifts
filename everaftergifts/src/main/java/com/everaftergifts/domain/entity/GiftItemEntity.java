@@ -1,4 +1,4 @@
 package com.everaftergifts.domain.entity;
 
-public class Registry {
+public class GiftItemEntity {
 }
