@@ -16,7 +16,7 @@ import java.util.Date;
 @Entity
 @Table(name="registries")
 @Builder
-public class RegistryEntity {
+public class WeddingRegistryEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
